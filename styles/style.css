@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(53, 53, 53);
+}
+.container{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.text{
+    font-size: 25px;
+    color: rgb(214, 221, 213)
+}
+.newColour{
+    color: rgb(194, 119, 221)
+}
+.btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+#colour-btn{
+    background-color: #5E5DF0;
+    border-radius: 12px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    cursor: pointer;
+    color: white;
+    padding: 8px 18px;
+    font-weight: 700;
+    border: none;
+}
+#colour-btn:active{
+    background-color: #6767ff;
+}
